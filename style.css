@@ -1,0 +1,140 @@
+body{
+  font-family: 'DotGothic16', sans-serif;
+  background-color: #B1D7B4;
+  color: 1A4D2E;
+  padding: 30px;
+  text-align: center;
+}
+
+#my_face_img {
+  height: 300px;
+  width:300px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-family: 'Press Start 2P', cursive;
+  color:Black;
+  line-height: 1.6;
+}
+.apple_logo {
+  position: relative;
+  bottom: 4px;
+  color: black;
+}
+
+p {
+  font-weight: bold;
+  font-family: 'Inconsolata', monospace;
+}
+
+.card > a{
+  font-family: 'Inconsolata', monospace;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+li{
+  display:inline;
+}
+
+ul{
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight:bold;
+  transition: 0.3s ease;
+}
+a:hover{
+  color: blue;
+}
+
+#profile-pic{
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+}
+
+.card{
+  background-color: white;
+  padding: 5%;
+  /* width: 100%; */
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 25px auto;
+  border-radius: 15px;
+  border: 4px solid #EAEAEA;
+  text-align: center;
+}
+
+li{
+  color:red;
+
+}
+
+#pizza-smile{
+  background-color: yellow;
+}
+
+
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
